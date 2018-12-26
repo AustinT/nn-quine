@@ -1,0 +1,10 @@
+{
+  "desc": "Working Quine with 2 layers, 10 units each",
+  "num_epochs": 300,
+  "learning_rate": 1e-3,
+  "batch_size": 8,
+  "save_freq": 100,
+  "n_hidden": 10,
+  "n_layers": 2,
+  "act_func": "ReLU"
+}
