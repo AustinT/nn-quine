@@ -5,6 +5,9 @@ Given a 1-hot vector with a 1 in position _i_, the output of the neural network 
 In effect, the neural network reproduces itself.
 The original paper didn't publish code, so this is my attempt to reproduce their work.
 
+## Requirements
+This code requires pytorch and tensorflow/tensorboard, in addition to standard packages like numpy and scikit learn. It is meant to be used with **python 3**.
+
 ## Vanilla Quine
 The first achievement of this paper was making a neural network quine that just reproduces its own weights.
 This is replicated in the file `mains/vanilla_quine.py`.
